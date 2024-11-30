@@ -1,0 +1,2 @@
+build123d == 0.7.0
+git+https://github.com/gumyr/bd_warehouse

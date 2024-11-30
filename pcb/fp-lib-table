@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "katori")(type "KiCad")(uri "${KIPRJMOD}/katori.pretty")(options "")(descr ""))
+  (lib (name "capacitive_sensors")(type "KiCad")(uri "${KIPRJMOD}/capacitive_sensors.pretty")(options "")(descr ""))
+  (lib (name "topremodels")(type "KiCad")(uri "${KIPRJMOD}/3d-models")(options "")(descr ""))
+)

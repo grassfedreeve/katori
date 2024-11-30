@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "topre")(type "KiCad")(uri "/home/reeve/Documents/KiCAD-Projects/toprebird/output/pcbs/toprebird.pretty")(options "")(descr ""))
+  (lib (name "topre2")(type "KiCad")(uri "/home/reeve/Documents/KiCAD-Projects/toprebird/output/pcbs/capacitive_sensors.pretty")(options "")(descr ""))
+)

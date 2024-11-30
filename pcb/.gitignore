@@ -1,0 +1,4 @@
+*.lck
+fp-info-cache
+*-backups/
+JLCPCB/

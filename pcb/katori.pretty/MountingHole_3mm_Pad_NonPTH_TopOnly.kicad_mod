@@ -1,0 +1,135 @@
+(footprint "MountingHole_3mm_Pad_NonPTH_TopOnly"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3mm")
+	(tags "mounting hole 3mm")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "fc3fa9a1-422b-45a5-9761-badff137a9d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_3mm_Pad_NonPTH_TopOnly"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "0c22d126-85dd-46ae-bcd9-a3e8c01f625a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da89d6bf-df20-41fd-b1a8-811a9f532e84")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dddf432-cc81-4948-b7e0-03d89516abc2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c946594a-ffe3-461c-b2b9-049622b86e2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 2.7 0)
+		(stroke
+			(width 0.7)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Paste")
+		(uuid "9fe58eb6-89f6-4136-b798-92858ced4000")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "31ad97e7-f4b1-4875-b88c-2ac5f53f0a94")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e72872a0-ade8-4476-a8f4-cdbcd581515c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5f015c92-fc6a-4bf4-a23d-698c7f3c11eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4.25 4.25)
+		(drill 4.25)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "44216b30-6afe-425e-a43d-9a7ecfd6817d")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a69e605a-9052-440f-bcc9-68da52cfa154")
+	)
+	(model "${KIPRJMOD}/3d-models/m3-2mm-solder-nut.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

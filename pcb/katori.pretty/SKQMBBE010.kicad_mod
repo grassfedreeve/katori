@@ -1,0 +1,186 @@
+(footprint "SKQMBBE010"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD 1x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin")
+	(tags "SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin")
+	(property "Reference" "REF**"
+		(at -0.014 2.941 0)
+		(layer "F.SilkS")
+		(uuid "b415f53c-f002-4301-bc8e-e7d0a82fb2f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SKQMBBE010"
+		(at 0 3.11 0)
+		(layer "F.Fab")
+		(uuid "7a31bbee-e2f1-4a36-89b2-8b03778efe8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcc57c5a-9c69-478a-a488-86cf7737f003")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2657b86f-a7ea-41f1-99dc-362d4308b1db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99d060a4-99c4-4871-91de-09b9acf682f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.99974 -1.03124)
+		(end -2.99974 -1.75006)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e5e3c8f-3d06-414a-95af-ad837bcf96d8")
+	)
+	(fp_line
+		(start -2.99974 1.75006)
+		(end -2.99974 1.03124)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40d21289-e143-4541-b300-48688a681d8f")
+	)
+	(fp_line
+		(start -2.99974 1.75006)
+		(end 2.99974 1.75006)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0d7aee4-dbbf-4177-a029-70c612a322f7")
+	)
+	(fp_line
+		(start 2.99974 -1.75006)
+		(end -2.99974 -1.75006)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bcbf1a1-0e4f-4309-aafe-cc6f590daf53")
+	)
+	(fp_line
+		(start 2.99974 -1.03124)
+		(end 2.99974 -1.75006)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f853619d-40f6-4e78-ba22-4a54a80c0e30")
+	)
+	(fp_line
+		(start 2.99974 1.75006)
+		(end 2.99974 1.03124)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2712abfa-e6bc-4ec4-a7aa-89bba388d508")
+	)
+	(fp_rect
+		(start -1.5 -0.75)
+		(end 1.5 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fd73e1bd-3863-4aa6-879d-70f53330da3d")
+	)
+	(fp_rect
+		(start -2.998 -1.748)
+		(end 3.001 1.747)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "3d09cfc8-26de-47e2-ba1c-44cbca170c5f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.463 -0.018 90)
+		(layer "F.Fab")
+		(uuid "2ea30296-fd03-4736-9519-bf441e89a6a2")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.64922 0)
+		(size 1.80086 1.6002)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d5b09b73-a895-4b96-8a10-0e01e759043d")
+	)
+	(pad "2" smd rect
+		(at 2.64922 0)
+		(size 1.80086 1.6002)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c3ed6274-f6a1-4a0e-99b8-7823a480dbb5")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
