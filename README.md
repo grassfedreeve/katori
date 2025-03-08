@@ -1,10 +1,13 @@
+
+![katori](./img/katori.JPEG)
+
 # katori
 30-key wireless topre/ec hummingbird keyboard based on the [rufous](https://github.com/jcmkk3/trochilidae) & [topreviung](https://gitlab.com/lpgalaxy/topreviung) 
 ---- 
 named after katori senkō mosquito coils that inspired the original conical spring design for topre switches, as well as katori's translation to bird as homage to the hummingbird.
 
 ## Status
-Not yet tested 
+Revision 1 has been built and tested. Had design error fixed in r2 but yet to be officially ordered
 
 ## Manufacturing
 
@@ -59,6 +62,6 @@ Thank you to [PCBWay](https://www.pcbway.com/) for sponsoring this project!
 
 You can find and order the parts for this project on PCBWay using these links:
 
-[pcb](<ttps://www.pcbway.com/project/shareproject/Katori_30_key_wireless_topre_ec_hummingbird_keyboard_7163f60f.html)
+[pcb](https://www.pcbway.com/project/shareproject/Katori_30_key_wireless_topre_ec_hummingbird_keyboard_7163f60f.html)
 [plate](https://www.pcbway.com/project/shareproject/Katori_Plate_a08691e4.html)
 
