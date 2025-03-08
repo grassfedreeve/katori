@@ -359,12 +359,6 @@
 		(uuid "370466c5-abd3-4629-8183-d3f93c60b631")
 	)
 	(junction
-		(at 199.39 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42c4ea18-fdf4-4ce7-a15b-0dcd310f28be")
-	)
-	(junction
 		(at 191.77 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -455,6 +449,12 @@
 		(uuid "7437f6ec-1721-4589-b307-14b45bbb3db2")
 	)
 	(junction
+		(at 267.97 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "788fb447-1955-45b9-9697-fc5fe6e2da3c")
+	)
+	(junction
 		(at 119.38 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -483,12 +483,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bb0e19e-a1e6-46fd-bf32-62befabfb2a6")
-	)
-	(junction
-		(at 104.14 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9be62d55-3d50-4fef-9f47-793d12dba127")
 	)
 	(junction
 		(at 191.77 63.5)
@@ -659,6 +653,12 @@
 		(uuid "f38cdf63-a401-4723-ab6b-b4aa18fb84be")
 	)
 	(junction
+		(at 35.56 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3ca16f4-c78b-4fcb-a1ed-8df9e80d5fb9")
+	)
+	(junction
 		(at 58.42 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -712,16 +712,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 104.14) (xy 127 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "020a123f-5c07-4941-b350-c09f92bd0fa2")
-	)
-	(wire
-		(pts
 			(xy 151.13 109.22) (xy 151.13 101.6)
 		)
 		(stroke
@@ -769,16 +759,6 @@
 			(type default)
 		)
 		(uuid "14b602b2-fe07-4637-9b74-b697e308a3d6")
-	)
-	(wire
-		(pts
-			(xy 104.14 95.25) (xy 104.14 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16241f58-39a4-4efe-8feb-a6df2d16b85a")
 	)
 	(wire
 		(pts
@@ -912,17 +892,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 104.14) (xy 176.53 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3afec150-39c6-4e59-a6ab-6eb6eb448171")
-	)
-	(wire
-		(pts
-			(xy 199.39 95.25) (xy 199.39 96.52)
+			(xy 176.53 93.98) (xy 176.53 104.14)
 		)
 		(stroke
 			(width 0)
@@ -952,6 +922,26 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 96.52) (xy 104.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b79ba1f-be77-4c22-bd9b-3c91355d0be0")
+	)
+	(wire
+		(pts
+			(xy 267.97 96.52) (xy 267.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba6b40a-7f09-42af-bf61-e158cc103f9b")
+	)
+	(wire
+		(pts
 			(xy 73.66 39.37) (xy 73.66 48.26)
 		)
 		(stroke
@@ -969,6 +959,16 @@
 			(type default)
 		)
 		(uuid "4ea103da-f8bd-4999-a875-35fc936e58d0")
+	)
+	(wire
+		(pts
+			(xy 199.39 96.52) (xy 267.97 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544f9192-1d7d-4156-84bd-296fec63cadd")
 	)
 	(wire
 		(pts
@@ -1252,6 +1252,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 101.6) (xy 191.77 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86621b28-b198-4288-b6dd-e0b6680e8e0c")
+	)
+	(wire
+		(pts
 			(xy 88.9 82.55) (xy 111.76 82.55)
 		)
 		(stroke
@@ -1452,7 +1462,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 96.52) (xy 104.14 104.14)
+			(xy 127 92.71) (xy 127 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1469,16 +1479,6 @@
 			(type default)
 		)
 		(uuid "af5996db-2ba2-48d0-8c74-f8e29ac471b1")
-	)
-	(wire
-		(pts
-			(xy 199.39 96.52) (xy 199.39 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b33b6d7b-7b93-4a14-ada5-7a05c68b63ac")
 	)
 	(wire
 		(pts
@@ -1732,16 +1732,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 109.22) (xy 191.77 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4d8b093-5c74-4c64-babf-7eb87dbe04e7")
-	)
-	(wire
-		(pts
 			(xy 111.76 63.5) (xy 134.62 63.5)
 		)
 		(stroke
@@ -1799,6 +1789,16 @@
 			(type default)
 		)
 		(uuid "ea44f2f6-c662-4072-a8c6-c79177b9fafb")
+	)
+	(wire
+		(pts
+			(xy 35.56 58.42) (xy 35.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec114dc3-633d-42b7-a689-b4fccc4d698e")
 	)
 	(wire
 		(pts
@@ -1988,7 +1988,7 @@
 	)
 	(global_label "COL11"
 		(shape input)
-		(at 199.39 95.25 90)
+		(at 176.53 93.98 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1998,7 +1998,7 @@
 		)
 		(uuid "1d4cc4aa-904d-4e44-bcbb-dd7f1fc4828d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.39 88.0809 90)
+			(at 176.53 86.8109 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2252,7 @@
 	)
 	(global_label "COL10"
 		(shape input)
-		(at 104.14 95.25 90)
+		(at 127 92.71 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2262,7 +2262,7 @@
 		)
 		(uuid "f1fff47a-a722-477f-9635-478bcec2326d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 88.0809 90)
+			(at 127 85.5409 90)
 			(effects
 				(font
 					(size 1.27 1.27)

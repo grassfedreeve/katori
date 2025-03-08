@@ -55,9 +55,10 @@ Currently setup to use a 1.2mm aluminum single layer pcb as the plate
 ## Acknowledgements 
 Thank you to [PCBWay](https://www.pcbway.com/) for sponsoring this project!
 
+![](./img/pcbway.png)
+
 You can find and order the parts for this project on PCBWay using these links:
-pcb
-pcb assembled
-plate
-case
+
+[pcb](<ttps://www.pcbway.com/project/shareproject/Katori_30_key_wireless_topre_ec_hummingbird_keyboard_7163f60f.html)
+[plate](https://www.pcbway.com/project/shareproject/Katori_Plate_a08691e4.html)
 
